@@ -1,6 +1,6 @@
 using API_sis_conselhotutelarv2.Data;
-using API_sis_conselhotutelarv2.RepositÛrios;
-using API_sis_conselhotutelarv2.RepositÛrios.Interfaces;
+using API_sis_conselhotutelarv2.Reposit√≥rios;
+using API_sis_conselhotutelarv2.Reposit√≥rios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 
@@ -11,13 +11,13 @@ namespace API_sis_conselhotutelarv2
         public static void Main(string[] args)
         {
 
-            string connectionString = "Server=sql10.freesqldatabase.com;Database=sql10720055;User=sql10720055;Password=i5YqtT1pqe;";
+            string connectionString = "Server=;Database=;User=;Password=;";
             using (var connection = new MySqlConnection(connectionString))
             {
                 try
                 {
                     connection.Open();
-                    Console.WriteLine("Conex„o bem-sucedida!");
+                    Console.WriteLine("Conex√£o bem-sucedida!");
                 }
                 catch (Exception ex)
                 {
