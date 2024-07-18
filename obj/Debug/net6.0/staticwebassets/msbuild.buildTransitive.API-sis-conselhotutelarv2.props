@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\API-sis-conselhotutelarv2.props" />
+</Project>
