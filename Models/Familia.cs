@@ -6,5 +6,6 @@
         public string Fam_Sobrenomes { get; set; }
         public string Fam_Responsavel { get; set; }
         public int Fam_Participantes { get; set; }
+        public int Ativo_Inativo { get; set; } = 1;
     }
 }

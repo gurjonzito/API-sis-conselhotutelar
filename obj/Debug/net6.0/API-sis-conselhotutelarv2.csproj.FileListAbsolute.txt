@@ -38,3 +38,16 @@ C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\obj\Debug\net6.0\API-sis-co
 C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\obj\Debug\net6.0\API-sis-conselhotutelarv2.genruntimeconfig.cache
 C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\obj\Debug\net6.0\ref\API-sis-conselhotutelarv2.dll
 C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\obj\Debug\net6.0\API-sis-conselhotutelarv2.sourcelink.json
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Alan\source\repos\API-sis-conselhotutelarv2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

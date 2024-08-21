@@ -6,11 +6,22 @@ namespace API_sis_conselhotutelarv2.Repositórios.Interfaces
     {
         Task<List<Colaborador>> BuscarTodosColaboradores();
         Task<Colaborador> BuscarColaboradorPorId(int id);
+        Task<Colaborador> BuscarColaboradorPorUsuario(string usuario);
+        Task<Colaborador> ObterColaboradorPorTokenAsync(string token);
         Task<int> ObterIdColaboradorPorNome(string nomeColaborador);
         Task<List<Colaborador>> ObterColaboradoresAtivosComSetor();
+        Task<List<string>> ObterNomesCargosColaboradores();
+        Task<int> ObterIdCargoPorNome(string nomeCargo);
+        Task<string> ObterNomeCargoPorId(int idCargo);
+        Task<int> ObterIdEmpresaPorNome(string nomeEmpresa);
+        Task<List<string>> ObterNomesEmpresasColaboradores();
+        Task<string> ObterNomeEmpresaPorId(int idEmpresa);
         Task<bool> VerificarEmailColaborador(string email);
-        Task<Colaborador> AdicionarColaborador(Colaborador colaborador);
-        Task<Colaborador> AtualizarColaborador(Colaborador colaborador, int id);
-        Task<bool> DeletarColaborador(int id);
+        Task<Colaborador> VerificarCredenciais(string username, string senha);
+        Task<bool> AtualizarSenhaColaborador(Colaborador colaborador);
+        Task<Colaborador> AdicionarColaborador(ColaboradorDto colaboradorDto);
+        Task<Colaborador> AtualizarColaborador(ColaboradorEdicaoDto colaboradorDto, int id);
+        Task<bool> AtivarColaborador(int id);
+        Task<bool> InativarColaborador(int id);
     }
 }

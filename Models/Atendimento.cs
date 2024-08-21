@@ -13,12 +13,10 @@ namespace API_sis_conselhotutelarv2.Models
         public int? Ate_IdCliente { get; set; }
         public int Ate_IdColaborador { get; set; }
         [NotMapped]
-        public string NomeCidadao { get; set; }
+        public string? NomeCidadao { get; set; }
         [NotMapped]
         public string NomeAtendente { get; set; }
-        [NotMapped]
         public Cliente Cidadao { get; set; }
-        [NotMapped]
         public Colaborador Colaborador { get; set; }
     }
 }

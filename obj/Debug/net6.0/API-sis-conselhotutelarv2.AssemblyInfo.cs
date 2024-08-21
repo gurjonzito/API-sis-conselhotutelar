@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-sis-conselhotutelarv2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e8c3a16ee98f7574d95ead4aa0b5a56ff9f45af")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-sis-conselhotutelarv2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-sis-conselhotutelarv2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

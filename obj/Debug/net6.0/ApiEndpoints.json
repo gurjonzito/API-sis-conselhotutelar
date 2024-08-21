@@ -1,0 +1,1173 @@
+[
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "BuscarTodosAtendimentos",
+    "RelativePath": "api/Atendimento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Atendimento, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "CadastrarAtendimento",
+    "RelativePath": "api/Atendimento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atendimentoModel",
+        "Type": "API_sis_conselhotutelarv2.Models.AtendimentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Atendimento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "BuscarAtendimentoPorId",
+    "RelativePath": "api/Atendimento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Atendimento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "AtualizarAtendimento",
+    "RelativePath": "api/Atendimento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "atendimentoDto",
+        "Type": "API_sis_conselhotutelarv2.Models.AtendimentoEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterAtendimentosComNomes",
+    "RelativePath": "api/Atendimento/atendimentos-com-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterNomesClientes",
+    "RelativePath": "api/Atendimento/clientes-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterAtendimentoPorCodigo",
+    "RelativePath": "api/Atendimento/codigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Atendimento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterNomesColaboradores",
+    "RelativePath": "api/Atendimento/colaboradores-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterIdClientePorNome",
+    "RelativePath": "api/Atendimento/ObterIdClientePorNome/{nomeCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterIdColaboradorPorNome",
+    "RelativePath": "api/Atendimento/ObterIdColaboradorPorNome/{nomeColaborador}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeColaborador",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterNomeClientePorId",
+    "RelativePath": "api/Atendimento/ObterNomeClientePorId/{idCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.AtendimentoController",
+    "Method": "ObterNomeColaboradorPorId",
+    "RelativePath": "api/Atendimento/ObterNomeColaboradorPorId/{idColab}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idColab",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.CargoController",
+    "Method": "CadastrarCargo",
+    "RelativePath": "api/Cargo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargoModel",
+        "Type": "API_sis_conselhotutelarv2.Models.CargoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Cargo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.CargoController",
+    "Method": "BuscarCargoPorId",
+    "RelativePath": "api/Cargo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Cargo, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "BuscarTodosClientes",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Cliente, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "CadastrarCliente",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteModel",
+        "Type": "API_sis_conselhotutelarv2.Models.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Cliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "BuscarClientePorId",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Cliente, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "AtualizarCliente",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clienteDto",
+        "Type": "API_sis_conselhotutelarv2.Models.ClienteEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "AtivarCliente",
+    "RelativePath": "api/Cliente/ativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "ObterClientesAtivosComFamilia",
+    "RelativePath": "api/Cliente/ativos-com-familia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Cliente, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "ObterNomesFamilias",
+    "RelativePath": "api/Cliente/familias-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "InativarCliente",
+    "RelativePath": "api/Cliente/inativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "ObterIdClientePorNome",
+    "RelativePath": "api/Cliente/ObterIdClientePorNome/{nomeCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "ObterIdFamiliaPorNome",
+    "RelativePath": "api/Cliente/ObterIdFamiliaPorNome/{nomeFamilia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeFamilia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "ObterNomeFamiliaPorId",
+    "RelativePath": "api/Cliente/ObterNomeFamiliaPorId/{idFamilia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFamilia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ClienteController",
+    "Method": "VerificarEmailCliente",
+    "RelativePath": "api/Cliente/verificar-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "BuscarTodosColaboradores",
+    "RelativePath": "api/Colaborador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Colaborador, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "CadastrarColaborador",
+    "RelativePath": "api/Colaborador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "colaboradorModel",
+        "Type": "API_sis_conselhotutelarv2.Models.ColaboradorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Colaborador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "BuscarColaboradorPorId",
+    "RelativePath": "api/Colaborador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Colaborador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "AtualizarColaborador",
+    "RelativePath": "api/Colaborador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "colaboradorDto",
+        "Type": "API_sis_conselhotutelarv2.Models.ColaboradorEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "AtivarColaborador",
+    "RelativePath": "api/Colaborador/ativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterColaboradoresAtivosComSetor",
+    "RelativePath": "api/Colaborador/ativos-com-setor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Colaborador, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "AtualizarSenhaColaborador",
+    "RelativePath": "api/Colaborador/atualizar-senha/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "atualizarSenhaDto",
+        "Type": "API_sis_conselhotutelarv2.Models.AtualizarSenhaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterNomesCargos",
+    "RelativePath": "api/Colaborador/cargos-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "BuscarColaboradorComCargo",
+    "RelativePath": "api/Colaborador/colaborador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Colaborador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterNomesEmpresas",
+    "RelativePath": "api/Colaborador/empresas-nomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "InativarColaborador",
+    "RelativePath": "api/Colaborador/inativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "Login",
+    "RelativePath": "api/Colaborador/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "API_sis_conselhotutelarv2.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterIdCargoPorNome",
+    "RelativePath": "api/Colaborador/ObterIdCargoPorNome/{nomeCargo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCargo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterIdColaboradorPorNome",
+    "RelativePath": "api/Colaborador/ObterIdColaboradorPorNome/{nomeColab}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeColab",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterIdEmpresaPorNome",
+    "RelativePath": "api/Colaborador/ObterIdEmpresaPorNome/{nomeEmpresa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeEmpresa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterNomeCargoPorId",
+    "RelativePath": "api/Colaborador/ObterNomeCargoPorId/{idCargo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCargo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterNomeEmpresaPorId",
+    "RelativePath": "api/Colaborador/ObterNomeEmpresaPorId/{idEmpresa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEmpresa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "ObterColaboradorPorToken",
+    "RelativePath": "api/Colaborador/por-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "BuscarColaboradorPorUsuario",
+    "RelativePath": "api/Colaborador/usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Colaborador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.ColaboradorController",
+    "Method": "VerificarEmailColaborador",
+    "RelativePath": "api/Colaborador/verificar-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.EmpresaController",
+    "Method": "AdicionarEmpresa",
+    "RelativePath": "api/Empresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaModel",
+        "Type": "API_sis_conselhotutelarv2.Models.Empresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.EmpresaResponseDto\u00601[[API_sis_conselhotutelarv2.Models.Empresa, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.EmpresaController",
+    "Method": "BuscarEmpresaPorId",
+    "RelativePath": "api/Empresa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Empresa, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.EmpresaController",
+    "Method": "AtivarEmpresa",
+    "RelativePath": "api/Empresa/ativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.EmpresaController",
+    "Method": "BuscarEmpresaPorChave",
+    "RelativePath": "api/Empresa/chave/{chave}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chave",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.EmpresaController",
+    "Method": "InativarEmpresa",
+    "RelativePath": "api/Empresa/inativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "BuscarTodasFamilias",
+    "RelativePath": "api/Familia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_sis_conselhotutelarv2.Models.Familia, API-sis-conselhotutelarv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "CadastrarFamilia",
+    "RelativePath": "api/Familia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "familiaModel",
+        "Type": "API_sis_conselhotutelarv2.Models.Familia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Familia",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "BuscarFamiliaPorId",
+    "RelativePath": "api/Familia/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_sis_conselhotutelarv2.Models.Familia",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "AtualizarFamilia",
+    "RelativePath": "api/Familia/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "familiaDto",
+        "Type": "API_sis_conselhotutelarv2.Models.FamiliaEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "AtivarFamilia",
+    "RelativePath": "api/Familia/ativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "InativarFamilia",
+    "RelativePath": "api/Familia/inativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.FamiliaController",
+    "Method": "ObterIdFamiliaPorNome",
+    "RelativePath": "api/Familia/ObterIdFamiliaPorNome/{nomeFamilia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeFamilia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.HealthController",
+    "Method": "Check",
+    "RelativePath": "api/Health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

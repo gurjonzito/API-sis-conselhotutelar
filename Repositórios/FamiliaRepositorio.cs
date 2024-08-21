@@ -25,6 +25,21 @@ namespace API_sis_conselhotutelarv2.Repositórios
             return await _context.Familias.ToListAsync();
         }
 
+        public async Task<int> ObterIdFamiliaPorNome(string nomeFamilia)
+        {
+            var familiaId = await _context.Familias
+                .Where(c => c.Fam_Sobrenomes.ToLower() == nomeFamilia.ToLower())
+                .Select(c => c.Fam_Id)
+                .FirstOrDefaultAsync();
+
+            if (familiaId == 0)
+            {
+                throw new Exception($"Família com o sobrenome: {nomeFamilia} não foi encontrado.");
+            }
+
+            return familiaId;
+        }
+
         public async Task<Familia> AdicionarFamilia(Familia familia)
         {
             await _context.Familias.AddAsync(familia);
@@ -33,35 +48,61 @@ namespace API_sis_conselhotutelarv2.Repositórios
             return familia;
         }
 
-        public async Task<Familia> AtualizarFamilia(Familia familia, int id)
+        public async Task<Familia> AtualizarFamilia(FamiliaEdicaoDto familiaDto, int id)
         {
-            Familia familiaPorId = await _context.Familias.FirstOrDefaultAsync(x => x.Fam_Id == id);
-
-            if (familiaPorId == null)
+            try
             {
-                throw new Exception($"Família para o Id: {id} não foi encontrada no banco de dados.");
+                Familia familiaPorId = await _context.Familias.FirstOrDefaultAsync(x => x.Fam_Id == id);
+
+                if (familiaPorId == null)
+                {
+                    throw new Exception($"Família para o ID: {id} não foi encontrado no banco de dados.");
+                }
+
+                familiaPorId.Fam_Sobrenomes = familiaDto.Fam_Sobrenomes ?? familiaPorId.Fam_Sobrenomes;
+                familiaPorId.Fam_Responsavel = familiaDto.Fam_Responsavel ?? familiaPorId.Fam_Responsavel;
+                familiaPorId.Fam_Participantes = familiaDto.Fam_Participantes ?? familiaPorId.Fam_Participantes;
+
+                _context.Familias.Update(familiaPorId);
+                await _context.SaveChangesAsync();
+
+                return familiaPorId;
             }
-
-            familiaPorId.Fam_Sobrenomes = familia.Fam_Sobrenomes;
-            familiaPorId.Fam_Responsavel = familia.Fam_Responsavel;
-            familiaPorId.Fam_Participantes = familia.Fam_Participantes;
-
-            _context.Familias.Update(familiaPorId);
-            await _context.SaveChangesAsync();
-
-            return familiaPorId;
+            catch (Exception ex)
+            {
+                // Log do erro
+                Console.WriteLine($"Erro ao atualizar família: {ex.Message}");
+                throw;
+            }
         }
 
-        public async Task<bool> DeletarFamilia(int id)
+        public async Task<bool> AtivarFamilia(int id)
         {
-            Familia familiaPorId = await _context.Familias.FirstOrDefaultAsync(x => x.Fam_Id == id);
+            var familia = await _context.Familias.FirstOrDefaultAsync(c => c.Fam_Id == id);
 
-            if (familiaPorId == null)
+            if (familia == null)
             {
-                throw new Exception($"Família para o Id: {id} não foi encontrada no banco de dados.");
+                throw new Exception($"Família com o ID: {id} não foi encontrada.");
             }
 
-            _context.Familias.Remove(familiaPorId);
+            familia.Ativo_Inativo = 1; // Define como ativo
+            _context.Familias.Update(familia);
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<bool> InativarFamilia(int id)
+        {
+            var familia = await _context.Familias.FirstOrDefaultAsync(c => c.Fam_Id == id);
+
+            if (familia == null)
+            {
+                throw new Exception($"Família com o ID: {id} não foi encontrada.");
+            }
+
+            familia.Ativo_Inativo = 0; // Define como inativo
+            _context.Familias.Update(familia);
             await _context.SaveChangesAsync();
 
             return true;

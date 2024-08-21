@@ -1,12 +1,14 @@
-﻿using System.ComponentModel;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace API_sis_conselhotutelarv2.Enums
 {
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum StatusAtendimento
     {
-        [Description("Ativo")]
-        Ativo = 1,
-        [Description("Inativo")]
-        Inativo = 2
+        Ativo,
+        Pendente,
+        Inativo
     }
 }
+

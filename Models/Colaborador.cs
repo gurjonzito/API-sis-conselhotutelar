@@ -12,7 +12,10 @@ namespace API_sis_conselhotutelarv2.Models
         public string? Col_Telefone { get; set; }
         public string Col_Senha { get; set; }
         public int Col_IdCargo { get; set; }
+        public int Col_IdEmpresa { get; set; }
+        public int Ativo_Inativo { get; set; } = 1;
         public Cargo Cargo { get; set; }
+        public Empresa Empresa { get; set; }
 
         public void SetSenha(string senha)
         {

@@ -5,6 +5,6 @@ namespace API_sis_conselhotutelarv2.Models
     public class Cargo
     {
         public int Car_Id { get; set; }
-        public NomeCargo Car_Nome { get; set; }
+        public string Car_Nome { get; set; }
     }
 }

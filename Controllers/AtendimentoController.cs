@@ -1,5 +1,6 @@
 ﻿using API_sis_conselhotutelarv2.Enums;
 using API_sis_conselhotutelarv2.Models;
+using API_sis_conselhotutelarv2.Repositórios;
 using API_sis_conselhotutelarv2.Repositórios.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -31,10 +32,10 @@ namespace API_sis_conselhotutelarv2.Controllers
             return Ok(atendimento);
         }
 
-        [HttpGet("{codigo}")]
-        public async Task<ActionResult<Atendimento>> BuscarAtendimentoPorCodigo(string codigo)
+        [HttpGet("codigo/{codigo}")]
+        public async Task<ActionResult<Atendimento>> ObterAtendimentoPorCodigo(string codigo)
         {
-            var atendimento = await _atendimentoRepositorio.BuscarAtendimentoPorCodigo(codigo);
+            var atendimento = await _atendimentoRepositorio.BuscarAtendimentoPorCodigoAsync(codigo);
             if (atendimento == null)
             {
                 return NotFound();
@@ -59,12 +60,15 @@ namespace API_sis_conselhotutelarv2.Controllers
         [HttpGet("ObterIdClientePorNome/{nomeCliente}")]
         public async Task<IActionResult> ObterIdClientePorNome(string nomeCliente)
         {
-            var clienteId = await _atendimentoRepositorio.ObterIdClientePorNome(nomeCliente);
-            if (clienteId == null)
+            try
             {
-                return NotFound("Cliente não encontrado");
+                var clienteId = await _atendimentoRepositorio.ObterIdClientePorNome(nomeCliente);
+                return Ok(clienteId);
             }
-            return Ok(clienteId);
+            catch (Exception ex)
+            {
+                return NotFound("Cliente não encontrado: " + ex.Message);
+            }
         }
 
         [HttpGet("ObterIdColaboradorPorNome/{nomeColaborador}")]
@@ -78,6 +82,34 @@ namespace API_sis_conselhotutelarv2.Controllers
             catch (Exception ex)
             {
                 return NotFound("Colaborador não encontrado: " + ex.Message);
+            }
+        }
+
+        [HttpGet("ObterNomeClientePorId/{idCliente}")]
+        public async Task<IActionResult> ObterNomeClientePorId(int idCliente)
+        {
+            try
+            {
+                var nomeCliente = await _atendimentoRepositorio.ObterNomeClientePorId(idCliente);
+                return Ok(nomeCliente);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("ObterNomeColaboradorPorId/{idColab}")]
+        public async Task<IActionResult> ObterNomeColaboradorPorId(int idColab)
+        {
+            try
+            {
+                var nomeColab = await _atendimentoRepositorio.ObterNomeColaboradorPorId(idColab);
+                return Ok(nomeColab);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
             }
         }
 
@@ -104,21 +136,63 @@ namespace API_sis_conselhotutelarv2.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Converta o DTO em um modelo de atendimento, se necessário
-            var atendimento = new Atendimento
+            // Adicionar o atendimento ao repositório utilizando o DTO
+            var atendimento = await _atendimentoRepositorio.AdicionarAtendimento(atendimentoModel);
+            if (atendimento != null)
             {
-                Ate_Codigo = atendimentoModel.Ate_Codigo,
-                Ate_Data = atendimentoModel.Ate_Data,
-                Ate_Status = (StatusAtendimento)Enum.Parse(typeof(StatusAtendimento), atendimentoModel.Ate_Status),
-                Ate_Descritivo = atendimentoModel.Ate_Descritivo,
-                Ate_IdCliente = atendimentoModel.Ate_IdCliente,
-                Ate_IdColaborador = atendimentoModel.Ate_IdColaborador
-                // Não inclua NomeCidadao e NomeAtendente, pois são opcionais
-            };
+                return Ok(new ApiResponse<Atendimento>
+                {
+                    Data = atendimento,
+                    Success = true,
+                    Message = "Atendimento cadastrado com sucesso"
+                });
+            }
 
-            // Adicionar o atendimento ao repositório
-            atendimento = await _atendimentoRepositorio.AdicionarAtendimento(atendimento);
-            return Ok(atendimento);
+            return StatusCode(500, new ApiResponse<bool>
+            {
+                Data = false,
+                Success = false,
+                Message = "Erro ao cadastrar atendimento"
+            });
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> AtualizarAtendimento(int id, [FromBody] AtendimentoEdicaoDto atendimentoDto)
+        {
+            if (id <= 0 || atendimentoDto == null)
+            {
+                return BadRequest("Dados inválidos.");
+            }
+
+            try
+            {
+                var atendimentoAtualizado = await _atendimentoRepositorio.AtualizarAtendimento(atendimentoDto, id);
+                if (atendimentoAtualizado == null)
+                {
+                    return NotFound("Atendimento não encontrado.");
+                }
+
+                var apiResponse = new ApiResponse<Atendimento>
+                {
+                    Data = atendimentoAtualizado,
+                    Success = true,
+                    Message = "Atendimento atualizado com sucesso."
+                };
+
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao atualizar atendimento: {ex.Message}");
+                var apiResponse = new ApiResponse<Atendimento>
+                {
+                    Data = null,
+                    Success = false,
+                    Message = ex.Message
+                };
+
+                return StatusCode(StatusCodes.Status500InternalServerError, apiResponse);
+            }
         }
     }
 }

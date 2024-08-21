@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel;
+using System.Runtime.Serialization;
 
 namespace API_sis_conselhotutelarv2.Enums
 {
     public enum NomeCargo
     {
-        [Description("Administrador")]
-        Administrador = 1,
-        [Description("Conselheiro")]
-        Conselheiro = 2
+        [EnumMember(Value = "Administrador")]
+        Administrador,
+        [EnumMember(Value = "Conselheiro")]
+        Conselheiro
     }
 }
