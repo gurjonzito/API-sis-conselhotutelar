@@ -1169,5 +1169,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_sis_conselhotutelarv2.Controllers.TestController",
+    "Method": "VerifyConnection",
+    "RelativePath": "api/Test/verify-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

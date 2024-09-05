@@ -12,12 +12,14 @@ namespace API_sis_conselhotutelarv2.Repositórios
         private readonly ApplicationDbContext _context;
         private readonly EmpresaDbContext _empresaContext;
         private readonly TokenRepositorio _tokenRepositorio;
+        private readonly IApplicationDbContextFactory _dbContextFactory;
 
-        public ColaboradorRepositorio(ApplicationDbContext applicationDbContext, EmpresaDbContext empresaDbContext, TokenRepositorio tokenRepositorio)
+        public ColaboradorRepositorio(ApplicationDbContext applicationDbContext, EmpresaDbContext empresaDbContext, TokenRepositorio tokenRepositorio, IApplicationDbContextFactory dbContextFactory)
         {
             _context = applicationDbContext;
             _empresaContext = empresaDbContext;
             _tokenRepositorio = tokenRepositorio;
+            _dbContextFactory = dbContextFactory;
         }
 
         public async Task<Colaborador> BuscarColaboradorPorId(int id)
@@ -179,16 +181,37 @@ namespace API_sis_conselhotutelarv2.Repositórios
             return true;
         }
 
-        public async Task<Colaborador> VerificarCredenciais(string username, string senha)
+        public async Task<LoginResponse> VerificarCredenciais(string username, string senha, string chaveValidade)
         {
-            var colaborador = await _context.Colaboradores.SingleOrDefaultAsync(c => c.Col_Username == username);
+            // Obter a empresa e a string de conexão associada à chave de validade
+            var chaveValidadeEntity = await _empresaContext.ChavesValidade
+                .Include(c => c.Empresa)
+                .FirstOrDefaultAsync(c => c.Cha_Chave == chaveValidade && c.Cha_Validade >= DateTime.UtcNow);
+
+            if (chaveValidadeEntity == null)
+            {
+                throw new Exception("Chave de validade inválida ou expirada.");
+            }
+
+            string connectionString = chaveValidadeEntity.Empresa.Emp_Connection;
+
+            // Criar uma instância do ApplicationDbContext usando a fábrica
+            var context = _dbContextFactory.CreateDbContext(connectionString);
+
+            // Verificar as credenciais do colaborador
+            var colaborador = await context.Colaboradores.SingleOrDefaultAsync(c => c.Col_Username == username);
 
             if (colaborador == null || !BCrypt.Net.BCrypt.Verify(senha, colaborador.Col_Senha))
             {
                 return null;
             }
 
-            return colaborador;
+            // Retornar o colaborador e a string de conexão
+            return new LoginResponse
+            {
+                Colaborador = colaborador,
+                ConnectionString = connectionString
+            };
         }
 
         public async Task<Colaborador> AdicionarColaborador(ColaboradorDto colaboradorDto)
@@ -202,7 +225,6 @@ namespace API_sis_conselhotutelarv2.Repositórios
                 Col_Telefone = colaboradorDto.Col_Telefone,
                 Col_Senha = colaboradorDto.Col_Senha,
                 Col_IdCargo = colaboradorDto.Col_IdCargo,
-                Col_IdEmpresa = colaboradorDto.Col_IdEmpresa,
                 Ativo_Inativo = colaboradorDto.Ativo_Inativo
             };
 
@@ -228,7 +250,6 @@ namespace API_sis_conselhotutelarv2.Repositórios
                 colaboradorPorId.Col_Email = colaboradorDto.Col_Email ?? colaboradorPorId.Col_Email;
                 colaboradorPorId.Col_Telefone = colaboradorDto.Col_Telefone ?? colaboradorPorId.Col_Telefone;
                 colaboradorPorId.Col_IdCargo = colaboradorDto.Col_IdCargo ?? colaboradorPorId.Col_IdCargo;
-                colaboradorPorId.Col_IdEmpresa = colaboradorDto.Col_IdEmpresa ?? colaboradorPorId.Col_IdEmpresa;
 
                 _context.Colaboradores.Update(colaboradorPorId);
                 await _context.SaveChangesAsync();

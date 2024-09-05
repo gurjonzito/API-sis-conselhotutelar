@@ -6,6 +6,7 @@ using API_sis_conselhotutelarv2.Repositórios;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using API_sis_conselhotutelarv2.Data;
 
 namespace API_sis_conselhotutelarv2.Controllers
 {
@@ -379,29 +380,32 @@ namespace API_sis_conselhotutelarv2.Controllers
     }*/
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginRequest loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginRequest loginDto)
         {
-            var colaborador = await _colaboradorRepositorio.BuscarColaboradorPorUsuario(loginDto.Col_Username);
-
-            if (colaborador == null)
+            try
             {
-                Console.WriteLine($"Login falhou: usuário {loginDto.Col_Username} não encontrado.");
-                return Unauthorized("Usuário ou senha incorretos.");
-            }
+                var loginResponse = await _colaboradorRepositorio.VerificarCredenciais(
+                    loginDto.Col_Username,
+                    loginDto.Col_Senha,
+                    loginDto.ChaveValidade
+                );
 
-            // Verificar a senha
-            bool senhaValida = BCrypt.Net.BCrypt.Verify(loginDto.Col_Senha, colaborador.Col_Senha);
-            if (!senhaValida)
+                if (loginResponse == null)
+                {
+                    return Unauthorized("Usuário, senha ou chave de validade inválidos.");
+                }
+
+                return Ok(new
+                {
+                    Token = _tokenRepositorio.GenerateToken(loginResponse.Colaborador),
+                    ConnectionString = loginResponse.ConnectionString
+                });
+            }
+            catch (Exception ex)
             {
-                Console.WriteLine($"Login falhou: senha incorreta para usuário {loginDto.Col_Username}.");
-                return Unauthorized("Usuário ou senha incorretos.");
+                Console.WriteLine($"Erro ao fazer login: {ex.Message}");
+                return StatusCode(500, "Erro interno do servidor.");
             }
-
-            // Gerar token JWT
-            var token = _tokenRepositorio.GenerateToken(colaborador);
-
-            Console.WriteLine($"Login bem-sucedido para usuário {loginDto.Col_Username}.");
-            return Ok(new { Token = token });
         }
     }
 }

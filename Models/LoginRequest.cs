@@ -4,5 +4,6 @@
     {
         public string Col_Username { get; set; }
         public string Col_Senha { get; set; }
+        public string ChaveValidade { get; set; }
     }
 }

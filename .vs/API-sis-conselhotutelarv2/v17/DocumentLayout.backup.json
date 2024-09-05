@@ -3,40 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\empresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\empresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\colaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\colaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\iapplicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\iapplicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\connectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\connectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\tokenrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\tokenrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\empresadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\empresadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\icolaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\icolaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\colaboradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\colaboradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\map\\colaboradormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\map\\colaboradormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\empresadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\empresadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\empresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\empresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\iempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\iempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\map\\chavevalidademap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +111,8 @@
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\colaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\colaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\empresaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\empresaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\iempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\iempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\atendimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\atendimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,28 +131,12 @@
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\map\\familiamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\map\\colaboradormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\map\\colaboradormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\icolaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\icolaboradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\atualizarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\atualizarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\models\\verifypassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:models\\verifypassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\iatendimentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\cargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\reposit\u00F3rios\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:reposit\u00F3rios\\interfaces\\icargorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|c:\\users\\alan\\source\\repos\\api-sis-conselhotutelarv2\\data\\map\\cargomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A02339-EB17-4F24-B613-392E0BAE8255}|API-sis-conselhotutelarv2.csproj|solutionrelative:data\\map\\cargomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -234,36 +250,278 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmpresaRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\EmpresaRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\EmpresaRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\EmpresaRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\EmpresaRepositorio.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowEQAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ColaboradorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ColaboradorRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\ColaboradorRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ColaboradorRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\ColaboradorRepositorio.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAIwNYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:58:08.388Z",
+              "WhenOpened": "2024-07-15T18:12:45.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ICargoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:56:53.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ApplicationDbContextFactory.cs*",
+              "RelativeToolTip": "Reposit\u00F3rios\\ApplicationDbContextFactory.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T18:24:29.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCMAAAAxAAAA",
+              "ViewState": "AgIAAEkAAAAAAAAAAAD4v1YAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T22:16:28.877Z"
+              "WhenOpened": "2024-07-28T22:16:28.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T15:40:11.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IConnectionStringProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IConnectionStringProvider.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IConnectionStringProvider.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IConnectionStringProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:02:59.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColaboradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\ColaboradorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ColaboradorController.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\ColaboradorController.cs",
+              "RelativeToolTip": "Controllers\\ColaboradorController.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAIwJgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:53:59.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T18:23:40.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConnectionStringProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\ConnectionStringProvider.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ConnectionStringProvider.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\ConnectionStringProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:03:55.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\TokenRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\TokenRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\TokenRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\TokenRepositorio.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:54:08.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmpresaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\EmpresaDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\EmpresaDbContext.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\EmpresaDbContext.cs",
+              "RelativeToolTip": "Data\\EmpresaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:17:59.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:28:43.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:49:23.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IColaboradorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:09:30.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ColaboradorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ColaboradorDto.cs",
+              "RelativeDocumentMoniker": "Models\\ColaboradorDto.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ColaboradorDto.cs",
+              "RelativeToolTip": "Models\\ColaboradorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:13:49.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ColaboradorMap.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ColaboradorMap.cs",
+              "RelativeDocumentMoniker": "Data\\Map\\ColaboradorMap.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ColaboradorMap.cs",
+              "RelativeToolTip": "Data\\Map\\ColaboradorMap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:52:54.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T15:44:40.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmpresaController.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\EmpresaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpresaController.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\EmpresaController.cs",
+              "RelativeToolTip": "Controllers\\EmpresaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T22:07:03.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:19:10.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmpresaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\EmpresaRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\EmpresaRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\EmpresaRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\EmpresaRepositorio.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:58:08.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Empresa.cs",
+              "RelativeDocumentMoniker": "Models\\Empresa.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Empresa.cs",
+              "RelativeToolTip": "Models\\Empresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:48:46.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Colaborador.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Colaborador.cs",
               "RelativeDocumentMoniker": "Models\\Colaborador.cs",
@@ -275,43 +533,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ColaboradorDto.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ColaboradorDto.cs",
-              "RelativeDocumentMoniker": "Models\\ColaboradorDto.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ColaboradorDto.cs",
-              "RelativeToolTip": "Models\\ColaboradorDto.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA8wBEAAAAIAAAA",
+              "DocumentIndex": 20,
+              "Title": "IEmpresaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
+              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
+              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
+              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T06:13:49.752Z"
+              "WhenOpened": "2024-07-30T21:56:45.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\TokenRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\TokenRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\TokenRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\TokenRepositorio.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAkwGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T15:54:08.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmpresaController.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\EmpresaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmpresaController.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\EmpresaController.cs",
-              "RelativeToolTip": "Controllers\\EmpresaController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAYwFcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T22:07:03.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "ChaveValidadeMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ChaveValidadeMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\ChaveValidadeMap.cs",
@@ -323,31 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T15:44:40.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Empresa.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Empresa.cs",
-              "RelativeDocumentMoniker": "Models\\Empresa.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Empresa.cs",
-              "RelativeToolTip": "Models\\Empresa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:48:46.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "ChaveValidade.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ChaveValidade.cs",
               "RelativeDocumentMoniker": "Models\\ChaveValidade.cs",
@@ -359,31 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmpresaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\EmpresaDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\EmpresaDbContext.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\EmpresaDbContext.cs",
-              "RelativeToolTip": "Data\\EmpresaDbContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T14:17:59.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ColaboradorRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ColaboradorRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\ColaboradorRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ColaboradorRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\ColaboradorRepositorio.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAA8wBcBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T18:12:45.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "EmpresaMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\EmpresaMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\EmpresaMap.cs",
@@ -395,19 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAwwCQAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T15:40:11.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
@@ -419,31 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IEmpresaRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IEmpresaRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:56:45.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmpresaResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\EmpresaResponseDto.cs",
-              "RelativeDocumentMoniker": "Models\\EmpresaResponseDto.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\EmpresaResponseDto.cs",
-              "RelativeToolTip": "Models\\EmpresaResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T22:45:04.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "AtendimentoController.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\AtendimentoController.cs",
               "RelativeDocumentMoniker": "Controllers\\AtendimentoController.cs",
@@ -455,19 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ColaboradorController.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\ColaboradorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ColaboradorController.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\ColaboradorController.cs",
-              "RelativeToolTip": "Controllers\\ColaboradorController.cs",
-              "ViewState": "AQIAAAQBAAAAAAAAAAAAwCgBAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T17:53:59.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "CargoController.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\CargoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CargoController.cs",
@@ -479,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "AtendimentoMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\AtendimentoMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\AtendimentoMap.cs",
@@ -491,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "ClienteMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ClienteMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\ClienteMap.cs",
@@ -503,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "FamiliaMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\FamiliaMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\FamiliaMap.cs",
@@ -515,31 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ColaboradorMap.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ColaboradorMap.cs",
-              "RelativeDocumentMoniker": "Data\\Map\\ColaboradorMap.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\ColaboradorMap.cs",
-              "RelativeToolTip": "Data\\Map\\ColaboradorMap.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:52:54.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IColaboradorRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\IColaboradorRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T18:09:30.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "AtualizarSenhaDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\AtualizarSenhaDto.cs",
               "RelativeDocumentMoniker": "Models\\AtualizarSenhaDto.cs",
@@ -551,19 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Models\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T16:49:23.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "Models\\ChangePasswordDto.cs",
@@ -575,19 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "VerifyPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\VerifyPasswordDto.cs",
-              "RelativeDocumentMoniker": "Models\\VerifyPasswordDto.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\VerifyPasswordDto.cs",
-              "RelativeToolTip": "Models\\VerifyPasswordDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:37:16.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "AtendimentoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\AtendimentoRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\AtendimentoRepositorio.cs",
@@ -599,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "IAtendimentoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IAtendimentoRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IAtendimentoRepositorio.cs",
@@ -611,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "AtendimentoEdicaoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\AtendimentoEdicaoDto.cs",
               "RelativeDocumentMoniker": "Models\\AtendimentoEdicaoDto.cs",
@@ -623,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "ColaboradorEdicaoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ColaboradorEdicaoDto.cs",
               "RelativeDocumentMoniker": "Models\\ColaboradorEdicaoDto.cs",
@@ -635,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "Atendimento.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Atendimento.cs",
               "RelativeDocumentMoniker": "Models\\Atendimento.cs",
@@ -647,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "AtendimentoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\AtendimentoDto.cs",
               "RelativeDocumentMoniker": "Models\\AtendimentoDto.cs",
@@ -659,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "ClienteRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\ClienteRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\ClienteRepositorio.cs",
@@ -671,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "IClienteRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IClienteRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IClienteRepositorio.cs",
@@ -683,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "FamiliaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\FamiliaRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\FamiliaRepositorio.cs",
@@ -695,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "IFamiliaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\IFamiliaRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\IFamiliaRepositorio.cs",
@@ -707,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "FamiliaController.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\FamiliaController.cs",
               "RelativeDocumentMoniker": "Controllers\\FamiliaController.cs",
@@ -719,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
@@ -731,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "ClienteEdicaoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ClienteEdicaoDto.cs",
               "RelativeDocumentMoniker": "Models\\ClienteEdicaoDto.cs",
@@ -743,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "ClienteDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\ClienteDto.cs",
               "RelativeDocumentMoniker": "Models\\ClienteDto.cs",
@@ -755,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "HealthController.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Controllers\\HealthController.cs",
               "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
@@ -767,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "CargoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\CargoRepositorio.cs",
               "RelativeDocumentMoniker": "Reposit\u00F3rios\\CargoRepositorio.cs",
@@ -779,19 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ICargoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
-              "RelativeDocumentMoniker": "Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
-              "ToolTip": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
-              "RelativeToolTip": "Reposit\u00F3rios\\Interfaces\\ICargoRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:56:53.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "CargoMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\CargoMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\CargoMap.cs",
@@ -803,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "Cargo.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Cargo.cs",
               "RelativeDocumentMoniker": "Models\\Cargo.cs",
@@ -815,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "Familia.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Familia.cs",
               "RelativeDocumentMoniker": "Models\\Familia.cs",
@@ -827,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "FamiliaEdicaoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\FamiliaEdicaoDto.cs",
               "RelativeDocumentMoniker": "Models\\FamiliaEdicaoDto.cs",
@@ -839,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "StatusAtendimento.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Enums\\StatusAtendimento.cs",
               "RelativeDocumentMoniker": "Enums\\StatusAtendimento.cs",
@@ -851,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\EmailService.cs",
               "RelativeDocumentMoniker": "Models\\EmailService.cs",
@@ -863,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "NomeCargo.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Enums\\NomeCargo.cs",
               "RelativeDocumentMoniker": "Enums\\NomeCargo.cs",
@@ -875,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "CargoDto.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\CargoDto.cs",
               "RelativeDocumentMoniker": "Models\\CargoDto.cs",
@@ -887,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "Logs.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Models\\Logs.cs",
               "RelativeDocumentMoniker": "Models\\Logs.cs",
@@ -899,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "LogMap.cs",
               "DocumentMoniker": "C:\\Users\\Alan\\source\\repos\\API-sis-conselhotutelarv2\\Data\\Map\\LogMap.cs",
               "RelativeDocumentMoniker": "Data\\Map\\LogMap.cs",

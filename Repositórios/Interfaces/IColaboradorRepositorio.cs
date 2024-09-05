@@ -17,7 +17,7 @@ namespace API_sis_conselhotutelarv2.Repositórios.Interfaces
         Task<List<string>> ObterNomesEmpresasColaboradores();
         Task<string> ObterNomeEmpresaPorId(int idEmpresa);
         Task<bool> VerificarEmailColaborador(string email);
-        Task<Colaborador> VerificarCredenciais(string username, string senha);
+        Task<LoginResponse> VerificarCredenciais(string username, string senha, string chaveValidade);
         Task<bool> AtualizarSenhaColaborador(Colaborador colaborador);
         Task<Colaborador> AdicionarColaborador(ColaboradorDto colaboradorDto);
         Task<Colaborador> AtualizarColaborador(ColaboradorEdicaoDto colaboradorDto, int id);

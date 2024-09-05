@@ -1,22 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using API_sis_conselhotutelarv2.Models;
 using API_sis_conselhotutelarv2.Enums;
-using Microsoft.AspNetCore.Http;
+using API_sis_conselhotutelarv2.Repositórios.Interfaces;
 using API_sis_conselhotutelarv2.Data.Map;
-using Microsoft.AspNetCore.Authentication;
 
 namespace API_sis_conselhotutelarv2.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly EmpresaDbContext _principalDbContext;
+        private readonly string _connectionString;
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IHttpContextAccessor httpContextAccessor, EmpresaDbContext principalDbContext)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, string connectionString)
             : base(options)
         {
-            _httpContextAccessor = httpContextAccessor;
-            _principalDbContext = principalDbContext;
+            _connectionString = connectionString;
         }
 
         public DbSet<Colaborador> Colaboradores { get; set; }
@@ -28,35 +25,22 @@ namespace API_sis_conselhotutelarv2.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (_httpContextAccessor.HttpContext.Request.Headers.TryGetValue("ChaveValidade", out var chaveValidade))
+            if (!string.IsNullOrEmpty(_connectionString))
             {
-                var empresa = _principalDbContext.ChavesValidade
-                    .Include(c => c.Empresa)
-                    .FirstOrDefault(c => c.Cha_Chave == chaveValidade && c.Cha_Validade >= DateTime.Now);
-
-                string connectionString = empresa?.Empresa.Emp_Connection;
-
-                if (!string.IsNullOrEmpty(connectionString))
-                {
-                    optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-                }
-                else
-                {
-                    throw new Exception("Chave de validade inválida ou expirada.");
-                }
+                optionsBuilder.UseMySql(_connectionString, ServerVersion.AutoDetect(_connectionString));
             }
 
             base.OnConfiguring(optionsBuilder);
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ColaboradorMap());
             modelBuilder.ApplyConfiguration(new AtendimentoMap());
             modelBuilder.ApplyConfiguration(new ClienteMap());
             modelBuilder.ApplyConfiguration(new CargoMap());
             modelBuilder.ApplyConfiguration(new FamiliaMap());
-            modelBuilder.ApplyConfiguration(new EmpresaMap());
             modelBuilder.ApplyConfiguration(new LogMap());
 
             modelBuilder.Entity<Cargo>(entity =>
