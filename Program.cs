@@ -1,5 +1,6 @@
 using API_sis_conselhotutelarv2.Repositórios;
 using API_sis_conselhotutelarv2.Repositórios.Interfaces;
+using API_sis_conselhotutelarv2.Data;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +10,6 @@ using Newtonsoft.Json.Converters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using API_sis_conselhotutelarv2.Data;
 using Microsoft.AspNetCore.DataProtection;
 
 namespace API_sis_conselhotutelarv2
@@ -18,7 +18,6 @@ namespace API_sis_conselhotutelarv2
     {
         public static void Main(string[] args)
         {
-
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -30,24 +29,18 @@ namespace API_sis_conselhotutelarv2
                 });
 
             builder.Services.AddDataProtection()
-                     .PersistKeysToFileSystem(new DirectoryInfo(@"./keys/")) // Armazena as chaves em um diretório específico
-                     .SetApplicationName("SisConselho");
+                .PersistKeysToFileSystem(new DirectoryInfo(@"./keys/"))
+                .SetApplicationName("SisConselho");
 
-            builder.Services.AddDataProtection();
-
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
-            // Configuração do ApplicationDbContext
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySql(builder.Configuration.GetConnectionString("DataBase"),
-                new MySqlServerVersion(new Version(8, 0, 21))));
 
             // Configuração do EmpresaDbContext
             builder.Services.AddDbContext<EmpresaDbContext>(options =>
                 options.UseMySql(builder.Configuration.GetConnectionString("EmpresaDataBase"),
                 new MySqlServerVersion(new Version(8, 0, 21))));
+
+            builder.Services.AddHttpContextAccessor();
 
             builder.Services.AddScoped<ICargoRepositorio, CargoRepositorio>();
             builder.Services.AddScoped<IColaboradorRepositorio, ColaboradorRepositorio>();
@@ -55,11 +48,18 @@ namespace API_sis_conselhotutelarv2
             builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
             builder.Services.AddScoped<IFamiliaRepositorio, FamiliaRepositorio>();
             builder.Services.AddScoped<IEmpresaRepositorio, EmpresaRepositorio>();
+            builder.Services.AddScoped<IApplicationDbContextFactory, ApplicationDbContextFactory>();
+            builder.Services.AddScoped<IConnectionStringProvider>(provider =>
+            {
+                var httpContextAccessor = provider.GetRequiredService<IHttpContextAccessor>();
+                var empresaDbContext = provider.GetRequiredService<EmpresaDbContext>();
+                var dataProtectionProvider = provider.GetRequiredService<IDataProtectionProvider>();
+
+                return new ConnectionStringProvider(httpContextAccessor, empresaDbContext, dataProtectionProvider);
+            });
 
             // Registrar TokenRepositorio
             builder.Services.AddScoped<TokenRepositorio>();
-
-            builder.Services.AddHttpContextAccessor();
 
             // Configurar JWT Authentication
             var jwtSettings = builder.Configuration.GetSection("Jwt");
@@ -94,12 +94,9 @@ namespace API_sis_conselhotutelarv2
             }
 
             app.UseHttpsRedirection();
-
-            app.UseAuthentication(); // Adicionar Authentication
+            app.UseAuthentication();
             app.UseAuthorization();
-
             app.MapControllers();
-
             app.Run();
         }
     }
